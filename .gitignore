@@ -1,3 +1,4 @@
+# ===== Maven =====
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -10,8 +11,25 @@ buildNumber.properties
 # https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# ===== Eclipse =====
+# Se regeneran al importar como proyecto Maven
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+.factorypath
+bin/
+
+# ===== Ficheros que generan los ejercicios del cuaderno 0 =====
+# Cada ejercicio vuelve a crear lo que necesita
+datos/
+visitas.txt
+alumnos.txt
+
+# ===== Sistema operativo =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== Fallos de la máquina virtual y registros =====
+hs_err_pid*.log
+*.log
