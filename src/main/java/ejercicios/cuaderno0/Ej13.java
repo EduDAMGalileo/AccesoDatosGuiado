@@ -8,7 +8,7 @@ public class Ej13 {
 	public static void main(String[] args) throws IOException {
 		Path f = Path.of("datos", "apellido.txt");
 		Files.createDirectories(f.getParent());
-		Files.writeString(f, "Peña🍺");
+		Files.writeString(f, "🎲Peña🍺");
 		try (InputStream entrada = Files.newInputStream(f)) {
 			int b;
 			int n = 0;
@@ -19,7 +19,7 @@ public class Ej13 {
 						n++, b, b, como);
 			}
 		}
-		System.out.println("Letras: " + "Peña".length()
+		System.out.println("Letras: " + "🎲Peña🍺".length()
 				+ " Bytes: " + Files.size(f));
 	}
 }
