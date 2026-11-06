@@ -1,6 +1,6 @@
 package ejercicios.cuaderno0;
 
-public class Ej01 {
+public class Ej01_Static {
 
     private static int visitas = 0;
 

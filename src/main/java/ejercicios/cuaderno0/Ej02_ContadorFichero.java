@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Ej02 {
+public class Ej02_ContadorFichero {
 
     public static void main(String[] args) throws IOException {
         Path fichero = Path.of("visitas.txt");

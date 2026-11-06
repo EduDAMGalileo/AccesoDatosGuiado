@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
-public class Ej10 {
+public class Ej10_BorradoRecursivo {
 	public static void main(String[] args) throws IOException {
 		// la del ejercicio 7
 		Path carpeta = Path.of("datos", "2026"); 

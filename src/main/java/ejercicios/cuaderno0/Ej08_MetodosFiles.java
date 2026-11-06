@@ -2,7 +2,7 @@ package ejercicios.cuaderno0;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-public class Ej08 {
+public class Ej08_MetodosFiles {
 	public static void main(String[] args) throws IOException {
 		Path f = Path.of("datos", "saludo.txt");
 		Files.createDirectories(f.getParent());

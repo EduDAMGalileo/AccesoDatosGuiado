@@ -5,7 +5,7 @@ import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
-public class Ej07 {
+public class Ej07_CrearDirectorios {
 	public static void main(String[] args) throws IOException {
 		Path destino = Path.of("datos", "2026", "notas");
 		try {

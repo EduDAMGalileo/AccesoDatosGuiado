@@ -5,7 +5,7 @@ import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-public class Ej09 {
+public class Ej09_CopiarOReemplazar {
 	public static void main(String[] args) throws IOException {
 		// del ejercicio 8
 		Path origen = Path.of("datos", "saludo.txt"); 

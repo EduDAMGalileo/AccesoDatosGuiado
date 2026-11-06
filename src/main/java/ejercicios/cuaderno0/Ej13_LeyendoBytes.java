@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-public class Ej13 {
+public class Ej13_LeyendoBytes {
 	public static void main(String[] args) throws IOException {
 		Path f = Path.of("datos", "apellido.txt");
 		Files.createDirectories(f.getParent());

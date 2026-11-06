@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path; 
 import java.util.Random; 
  
-public class Ej14 { 
+public class Ej14_SinBufferConBuffer { 
  
     public static void main(String[] args) throws IOException { 
         Path f = Path.of("datos", "grande.bin"); 

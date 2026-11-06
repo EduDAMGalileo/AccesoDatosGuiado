@@ -2,7 +2,7 @@ package ejercicios.cuaderno0;
 
 import java.nio.file.Path;
 
-public class Ej06 {
+public class Ej06_PropiedadesPath {
 	public static void main(String[] args) {
 		Path base = Path.of("datos");
 		Path fichero = base.resolve("2026").resolve("notas.csv");

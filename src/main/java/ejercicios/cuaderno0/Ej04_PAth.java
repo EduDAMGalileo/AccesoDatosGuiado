@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 
-public class Ej04 {
+public class Ej04_PAth {
 
 	public static void main(String[] args) throws IOException {
 		Path ruta = Path.of("no-existe.txt");

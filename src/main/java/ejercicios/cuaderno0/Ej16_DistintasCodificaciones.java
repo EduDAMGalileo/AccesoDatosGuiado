@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files; 
 import java.nio.file.Path; 
  
-public class Ej16 { 
+public class Ej16_DistintasCodificaciones { 
  
     public static void main(String[] args) throws IOException { 
         String nombre = "Lucía Peñalver"; 

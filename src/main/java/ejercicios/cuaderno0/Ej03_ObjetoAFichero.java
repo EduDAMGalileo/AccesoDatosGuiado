@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ej03 {
+public class Ej03_ObjetoAFichero {
 
 	record Alumno(int id, String nombre, String correo) { }
 

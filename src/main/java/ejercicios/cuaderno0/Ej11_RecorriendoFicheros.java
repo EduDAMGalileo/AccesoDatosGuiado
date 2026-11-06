@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
 import java.util.stream.Stream;
-public class Ej11 {
+public class Ej11_RecorriendoFicheros {
 	public static void main(String[] args) throws IOException {
 		Path base = Path.of("datos", "curso");
 		crear(base.resolve("lista.txt"));

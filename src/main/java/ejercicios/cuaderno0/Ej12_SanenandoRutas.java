@@ -1,6 +1,6 @@
 package ejercicios.cuaderno0;
 import java.nio.file.Path;
-public class Ej12 {
+public class Ej12_SanenandoRutas {
 	public static void main(String[] args) {
 		Path base = Path.of("datos", "expedientes")
 				.toAbsolutePath().normalize();
