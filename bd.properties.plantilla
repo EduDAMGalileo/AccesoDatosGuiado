@@ -1,0 +1,4 @@
+# bd.properties.plantilla -- esta sí se sube al repositorio 
+bd.url=jdbc:postgresql://HOST:PUERTO/NOMBRE_BD 
+bd.usuario=TU_USUARIO 
+bd.clave=TU_CONTRASEÑA

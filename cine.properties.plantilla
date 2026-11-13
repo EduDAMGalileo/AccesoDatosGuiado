@@ -1,0 +1,5 @@
+# Plantilla. Copia este fichero como cine.properties y pon la contraseña real.
+# cine.properties NO debe subirse a ningún repositorio (lleva la contraseña).
+bd.url=jdbc:postgresql://localhost:5432/cine
+bd.usuario=app_cine
+bd.clave=CAMBIAME
